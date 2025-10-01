@@ -1,1 +1,14 @@
-# Quiz-for-My-Valentine
+# Quiz for My Valentine
+
+Çiftler için basit ve tatlı bir quiz uygulaması.
+
+## Özellikler
+- 1-25 arası soru oluşturma
+- Animasyonlu soru kartları
+- Uyumluluk analizi
+- Ses efektleri
+
+## Teknolojiler
+- Vanilla JavaScript
+- HTML5 / CSS3
+- Web Audio API
