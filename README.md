@@ -1,9 +1,9 @@
 # Quiz for My Valentine
 
-Çiftler için basit ve tatlı bir quiz uygulaması.
+Çiftler için basit ve tatlı bir quiz oyunu.
 
 ## Özellikler
-- 1-25 arası soru oluşturma
+- Havalı bir spinner ile 1-25 arası soru oluşturma
 - Animasyonlu soru kartları
 - Uyumluluk analizi
 - Ses efektleri
