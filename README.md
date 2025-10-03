@@ -13,4 +13,3 @@
 - HTML5 / CSS3
 - Web Audio API
 
-![Logo](file:///C:/Users/semih/OneDrive/Masa%C3%BCst%C3%BC/image.png)
