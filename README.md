@@ -13,3 +13,5 @@
 - HTML5 / CSS3
 - Web Audio API
 
+![• Logo • ](image.png)
+
