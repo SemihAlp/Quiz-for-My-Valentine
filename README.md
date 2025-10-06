@@ -1,14 +1,14 @@
 # Quiz for My Valentine
 
-Çiftler için basit ve tatlı bir quiz oyunu.
+A simple and sweet quiz game for couples.
 
-## Özellikler
-- Havalı bir spinner ile 1-25 arası soru oluşturma
-- Animasyonlu soru kartları
-- Uyumluluk analizi
-- Ses efektleri
+## Features
+- Generate 1-25 questions with a cool spinner
+- Cute animated question cards
+- Couple statistics 
+- Sound effects
 
-## Teknolojiler
+## Technologies
 - Vanilla JavaScript
 - HTML5 / CSS3
 - Web Audio API
