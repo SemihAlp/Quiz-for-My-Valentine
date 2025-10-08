@@ -444,6 +444,18 @@
       transform: translateY(18px);
     }
 
+    .welcome {
+      background: linear-gradient(150deg,
+          rgba(255, 105, 180, 1),
+          rgba(238, 130, 238, 1),
+          rgba(186, 85, 211, 1),
+          rgba(255, 20, 147, 1),
+          rgba(255, 140, 0, 1));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
     .compatibility.show {
       animation: compFadeSlide 900ms cubic-bezier(.2, .8, .2, 1) forwards;
     }
@@ -485,18 +497,18 @@
     <button id="soundToggle" class="sound-toggle">🔊</button>
 
     <h1>💖 Quiz for My Valentine 💖</h1>
-    <h2>Welcome!</h2>
-    <h3>Set the number of questions:</h3>
+    <h2 class="welcome">Hoş geldiniz!</h2>
+    <h3>Soru sayısı seçiniz:</h3>
 
     <div class="spinner-container">
       <div class="spinner-wrapper">
         <div class="spinner-track" id="spinnerTrack"></div>
         <div class="spinner-center-box" id="centerBox">5</div>
       </div>
-      <div class="spinner-label">Number of questions selected:<span id="selectedValue">5</span></div>
+      <div class="spinner-label">Seçilen soru sayısı: <span id="selectedValue">5</span></div>
     </div>
 
-    <button id="startCreatingBtn">Start creating the quiz!</button>
+    <button id="startCreatingBtn">Sorular Oluşturmaya Başla</button>
   </div>
 
   <div id="form-container" class="container hidden">
@@ -514,7 +526,7 @@
   <div id="quiz-container" class="container quiz-card hidden">
     <button id="soundToggleQuiz" class="sound-toggle">🔊</button>
 
-    <h2>💖 Couple Quiz 💖</h2>
+    <h2>💖 Quiz for My Valentine 💖</h2>
     <div class="progress-container">
       <div id="progressBar" class="progress-bar"></div>
     </div>
@@ -532,7 +544,6 @@
       <div class="result">Tebrikler!</div>
       <div><span id="totalQuestions">5</span> soruda toplam skor: <span id="finalScore"></span></div>
 
-      <!-- UYUMLULUK ANALİZİ -->
       <div id="compatibilityBox" class="compatibility hidden" aria-live="polite">
         <div id="compatibility"></div>
         <div id="compatibilityMessage"></div>
@@ -553,7 +564,7 @@
     let audioContext = null;
 
     let currentQuestionCount = 5;
-    const minQuestions = 1; 
+    const minQuestions = 1;
     const maxQuestions = 25;
     const spinnerTrack = document.getElementById("spinnerTrack");
     const selectedValueSpan = document.getElementById("selectedValue");
@@ -578,9 +589,9 @@
         items.push(item);
       });
 
-      const itemWidth = 68; 
-      const numbersLength = numbers.length; 
-      const targetIndex = numbersLength + 4; 
+      const itemWidth = 68;
+      const numbersLength = numbers.length;
+      const targetIndex = numbersLength + 4;
 
       setTimeout(() => {
         const targetScrollLeft = (targetIndex * itemWidth) - 150 + 34;
@@ -592,7 +603,7 @@
     function updateCenterValue() {
       const itemWidth = 68;
       const scrollLeft = spinnerTrack.scrollLeft;
-      const spinnerCenter = 150; 
+      const spinnerCenter = 150;
 
       const centerPosition = scrollLeft + spinnerCenter;
       const centerIndex = Math.round((centerPosition - 122) / itemWidth);
@@ -919,7 +930,6 @@
               compMsgEl.textContent = msg;
 
               compBox.classList.remove("hidden");
-              // küçük delay ile animasyon sınıfını tetikle
               setTimeout(() => compBox.classList.add("show"), 10);
 
               quizCard.classList.add('slide-in-up');
@@ -943,6 +953,5 @@
   </script>
 
 </body>
-
 
 </html>
