@@ -13,7 +13,7 @@
 - HTML5 / CSS3
 - Web Audio API
 
-- ## Nasıl Oynanır?
+## Nasıl Oynanır?
 - Açılış ekranında bulunan döndürücü ile 1-25 arası soru seçiniz.
 - Seçtiğiniz soru sayısı kadar soru oluşturmaya başlayınız.
 - Sorularınıza seçeneklerinizi giriniz ve doğru seçeneğinizi belirleyiniz.
