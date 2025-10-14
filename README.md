@@ -29,4 +29,3 @@
 
 
 ![• Logo • ](image.png)
-                          logo
