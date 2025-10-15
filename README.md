@@ -28,8 +28,8 @@
 
 <table>
   <tr>
-    <td><img src="1.png" width="250"></td>
-    <td><img src="2.png" width="250"></td>
+    <td><img src="1.png" width="450"></td>
+    <td><img src="2.png" width="400"></td>
   </tr>
   <tr>
     <td align="center">1</td>
