@@ -26,10 +26,16 @@
 - Tüm bunlara ek oyun boyunca devam eden tatlı ve romantik animasyonlarla eğlenceniz katlanır!
 - İYİ EĞLENCELER ♥
 
-| ![1](1.png) | ![2](2.png) |
-|:--:|:--:|
-| 1 | 2 |
-
+<table>
+  <tr>
+    <td><img src="1.png" width="250"></td>
+    <td><img src="2.png" width="250"></td>
+  </tr>
+  <tr>
+    <td align="center">1</td>
+    <td align="center">2</td>
+  </tr>
+</table>
 
 
 ![• Logo • ](image.png)
