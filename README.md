@@ -26,7 +26,10 @@
 - Tüm bunlara ek oyun boyunca devam eden tatlı ve romantik animasyonlarla eğlenceniz katlanır!
 - İYİ EĞLENCELER ♥
 
-![1](1.png)   ![2](2.png)
+| ![1](1.png) | ![2](2.png) |
+|:--:|:--:|
+| 1 | 2 |
+
 
 
 ![• Logo • ](image.png)
