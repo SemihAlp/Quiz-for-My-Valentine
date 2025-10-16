@@ -39,7 +39,7 @@
 <table>
   <tr>
     <td><img src="3.png" width="590"></td>
-    <td><img src="4.png" width="591"></td>
+    <td><img src="4.png" width="592"></td>
   </tr>
   <tr>
     <td align="center">3</td>
@@ -50,3 +50,5 @@
 # • Logo •
 
 ![• Logo • ](image.png)
+
+- Logo tasarımı "Bullet for My Valentine" adlı metal grubundan esinlenilmiştir.
