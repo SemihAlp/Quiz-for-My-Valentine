@@ -36,6 +36,16 @@
     <td align="center">2</td>
   </tr>
 </table>
+<table>
+  <tr>
+    <td><img src="3.png" width="600"></td>
+    <td><img src="4.png" width="580"></td>
+  </tr>
+  <tr>
+    <td align="center">3</td>
+    <td align="center">4</td>
+  </tr>
+</table>
 
 
 ![• Logo • ](image.png)
