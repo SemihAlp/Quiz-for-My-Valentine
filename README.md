@@ -26,7 +26,7 @@
 - Tüm bunlara ek oyun boyunca devam eden tatlı ve romantik animasyonlarla eğlenceniz katlanır!
 - İYİ EĞLENCELER ♥
 
-## Oyundan Kareler
+## Oyundan Kareler:
 
 <table>
   <tr>
