@@ -53,4 +53,4 @@
 
 ![• Logo • ](image.png)
 
-- Logo tasarımı "Bullet for My Valentine" adlı metal grubundan esinlenilmiştir.
+Logo tasarımı "Bullet for My Valentine" adlı metal grubundan esinlenilmiştir.
